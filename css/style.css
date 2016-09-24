@@ -4,6 +4,10 @@ body {
       height: 1124px;
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
+  @font-face {
+    font-family: "Helvetica Neue";
+    src: url(HelveticaNeue.ttf);
+  }
 /*header*/
 
 .header_menu {
