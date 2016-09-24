@@ -1,0 +1,53 @@
+.wrapper {
+     margin: 0 auto;
+     padding: 50px;
+     margin-left: 100px;
+}
+table{
+
+     color: #fbfbfb;
+     border: none;
+}
+th {
+      border: 2px solid #000;
+      width: 70px;
+  	  height: 41px;
+}
+
+.lorem_1 {
+      background-color: #ffee5f;
+      color: #ffee5f;
+}
+
+.lorem_2 {
+      background-color: #ffee5f;
+      color: #ffee5f;
+      height: 80px;
+}
+
+.lorem_3 {
+      background-color: #ff5935;
+      color: #ff5935;
+}
+
+.lorem_4 {
+      background-color: #000;
+      color: #000;
+}
+.lorem_5 {
+      background-color: #000;
+      color: #000;
+}
+.lorem_6 {
+      background-color: #ffee5f;
+      color: #ffee5f;
+      width: 4px;
+}
+.lorem_7 {
+     background-color: #0a4785;
+     color: #0a4785;
+}
+
+.lorem_8 {
+     height: 120px;
+}

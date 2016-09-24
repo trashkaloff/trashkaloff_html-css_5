@@ -1,0 +1,154 @@
+body {
+      background: url('../img/back.jpg') no-repeat;
+      background-size: 100%;
+      height: 1124px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+/*header*/
+
+.header_menu {
+      display: flex;
+      justify-content: flex-end;
+      background-image: url('../img/panel.png');
+      height: 40px;
+   }
+
+.header_menu li {
+     display: inline-block;
+}
+
+.left a,
+.right a {
+      text-decoration: none;
+      padding: 10px;
+      font: 15px Tahoma;
+      color: #fff;
+}
+
+.right a:hover,
+.left a:hover {
+	    background: #4eabda;
+	    transition: background .2s ease;
+}
+
+.left {
+      margin-top: 10px;
+}
+
+.right {
+      margin-top: 0;
+}
+
+.tabl img {
+     height: 40px;
+     margin-left: 110px;
+ }
+ .arrow img {
+     margin-right: 10px;
+     margin-top: 1px;
+ }
+
+.text-decoration{
+      text-decoration: underline;
+}
+/*conteiner*/
+
+.conteiner {
+      margin: 0;
+      padding: 0;
+      padding-top: 50px;
+}
+
+.name_conteiner p {
+      margin: 0 auto;
+    	text-align: center;
+    	width: 610px;
+      height: 45px;
+      margin-top: 155px;
+    	margin-bottom: 2px;
+    	padding-top: 25px;
+    	color: #fcffe8;
+    	font: 26px Tahoma;
+    	background-color: rgba(0,0,0,.7);
+}
+/*.OU {
+  background-image: url('../img/OU.png');
+  background-repeat: repeat-x;
+  width: 276px;
+  height: 2px;
+}*/
+.regist_conteiner {
+	   margin: 2px auto;
+	   text-align: center;
+	   width: 610px;
+	   height: 613px;
+	   background-color: rgba(0,0,0,.7);
+	   font: 15px Tahoma;
+}
+
+.OU {
+     font: 26px Tahoma;
+     font-size: 15px;
+	   color: #999;
+}
+
+.regist_conteiner>a>img {
+	   height: 35px;
+	   padding-top: 30px;
+	   border-right: 1px solid #1f3c76;
+}
+
+.input_conteiner li {
+     margin-bottom: 10px;
+     line-height: 50px;
+     list-style: none;
+}
+
+input[type="text"],
+input[type="password"] {
+    	font: 14px Tahoma;
+      color: #ccc;
+    	height: 30px;
+    	width: 350px;
+    	border-radius: 3px;
+      background-color: #090908;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+	    cursor: pointer;
+      box-shadow: 0 0 9px rgba(47,123,197,1), 0 1px #284960, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+      background-image: url(../img/box.png);
+     	width: 353px;
+	    height: 35px;
+}
+
+label {
+      margin-right: 100px;
+      font-family: Tahoma;
+      font-size: 14px;
+      color: #ccc
+}
+
+input[type="checkbox"]{
+      margin-right: 10px;
+}
+.button {
+      padding-top: 14px;
+      padding-right: 24px;
+      padding-bottom: 14px;
+      padding-left: 24px;
+      font-size: 15px;
+      font-weight: 200px;
+      text-decoration: none;
+      color: #fff;
+      background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+}
+
+.input_conteiner {
+      font-family: Tahoma;
+      font-size: 11px;
+      text-align: center;
+      color: #ccc;
+}
